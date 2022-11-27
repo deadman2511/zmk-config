@@ -27,7 +27,7 @@
 &kp A      &kp S     &kp D    &kp F    &kp G         &kp H        &kp J        &kp K     &kp L     &kp SEMI
 &kp Z      &kp X     &kp C    &kp V    &kp B         &kp N        &kp M        &kp COMMA &kp DOT   &kp SQT
            &kp LCTRL     &kp LALT                                                     &kp LWIN     &kp FSLH
-                              &sl 1    &kp SPACE     &kp SPACE   &kp LSHIFT
+                              &sl 1    &kp BSPC     &kp SPACE   &kp LSHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN
