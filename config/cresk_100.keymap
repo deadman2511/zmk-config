@@ -8,12 +8,12 @@
 #include <dt-bindings/zmk/keys.h>
 
 &sk {
-    release-after-ms = <0>;
+    release-after-ms = <1000>;
     quick-release;
 };
 
 &sl {
-    release-after-ms = <0>;
+    release-after-ms = <1000>;
 };
 
 / {
