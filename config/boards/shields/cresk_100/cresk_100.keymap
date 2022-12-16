@@ -22,12 +22,12 @@
 
         default_layer {
             bindings = <
-                                       &kp C_MUTE    &none
+                                       &kp C_MUTE    &kp ESC
 &kp Q      &kp W     &kp E    &kp R    &kp T         &kp Y        &kp U        &kp I     &kp O     &kp P
 &kp A      &kp S     &kp D    &kp F    &kp G         &kp H        &kp J        &kp K     &kp L     &kp SEMI
-&kp Z      &kp X     &kp C    &kp V    &kp B         &kp N        &kp M        &kp COMMA &kp DOT   &kp FSLH
-           &sk LCTRL     &sk LWIN                                                     &sl 1     &sk LCTRL
-                              &sk LALT    &kp SPACE     &sk SPACE   &sk LALT
+&kp Z      &kp X     &kp C    &kp V    &kp B         &kp N        &kp M        &kp COMMA &kp DOT   &kp RET
+           &sk LCTRL     &kp TAB                                                     &kp BSPC     &kp LALT
+                              &sl 1    &kp SPACE     &kp SPACE   &kp LSHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN
@@ -38,9 +38,9 @@
             bindings = <
                                        &trans        &trans
 &kp N1     &kp N2    &kp N3   &kp N4   &kp N5        &kp N6       &kp N7       &kp N8    &kp N9    &kp N0
-&kp ESC    &kp SQT   &kp DOWN &kp BSPC &kp INS       &kp UP       &kp DEL      &kp END   &kp HOME  &kp TAB
-&kp GRAVE  &kp PG_UP &kp LBKT &kp RET  &kp LEFT      &kp RIGHT    &kp RBKT     &kp MINUS &kp EQUAL &kp BSLH
-           &trans    &trans                                                    &trans    &trans
+&kp ESC    &kp SQT   &kp INS &kp BSPC &kp DOWN       &kp UP       &kp DEL      &kp END   &kp MINUS  &kp EQUAL
+&kp GRAVE  &kp PG_UP &kp LBKT &kp RET  &kp LEFT      &kp RIGHT    &kp RBKT     &kp HOME &kp TAB &kp BSLH
+           &kp CAPS    &kp PSCRN                                                    &trans    &trans
                               &sl 2    &trans        &sk LALT     &sk LWIN
             >;
         };
