@@ -41,7 +41,7 @@
 &kp ESC    &kp SQT   &kp UP &kp BSPC &kp INS       &kp LBKT       &kp DEL      &kp END   &kp MINUS  &kp SEMI
 &kp GRAVE  &kp LEFT &kp DOWN &kp RIGHT  &kp LEFT      &kp EQUAL    &kp RBKT     &kp HOME &kp TAB &kp BSLH
            &trans    &trans                                                    &trans    &trans
-                              &sl 2    &kp CAPS        &kp PSCRN     &kp LWIN
+                              &sl 2    &kp PSCRN        &kp CAPS     &kp LWIN
             >;
         };
 
