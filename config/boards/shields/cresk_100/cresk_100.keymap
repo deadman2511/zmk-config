@@ -8,7 +8,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 &sk {
-    release-after-ms = <700>;
+    release-after-ms = <1200>;
     quick-release;
 };
 
@@ -41,7 +41,7 @@
 &kp ESC    &kp SQT   &kp UP   &kp BSPC   &kp INS       &kp LBKT     &kp RBKT    &kp EQUAL  &kp MINUS  &kp SEMI
 &kp GRAVE  &kp LEFT  &kp DOWN &kp RIGHT  &kp LEFT      &kp END      &kp DEL     &kp HOME   &kp TAB    &kp BSLH
            &trans    &trans                                                     &trans     &trans
-                              &sl 2    &kp PSCRN        &kp CAPS     &kp LWIN
+                              &sl 2    &kp PSCRN        &kp CAPS     &sk LWIN
             >;
         };
 
