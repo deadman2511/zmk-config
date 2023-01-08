@@ -52,7 +52,7 @@
 &kp F11    &kp F12   &none    &kp BSPC &none         &none        &none        &none     &none     &none
 &kp TILDE  &trans &none    &kp RET  &none         &none        &none        &none     &none     &none
            &none     &none                                                     &none     &none
-                              &none    &trans        &sk LS(LALT(S)) &sk LC(LWIN)
+                              &none    &trans        &sk LS(LALT(S))    &sk LC(LWIN)
             >;
         };
     };
