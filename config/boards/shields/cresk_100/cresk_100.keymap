@@ -26,7 +26,7 @@
 &kp Q      &kp N7     &kp N8    &kp N9    &kp T         &kp Y        &kp U        &kp I     &kp O     &kp P
 &kp A      &kp N4     &kp N5    &kp N6    &kp G         &kp H        &kp J        &kp K     &kp L     &kp SEMI
 &kp Z      &kp N1     &kp N2    &kp N3    &kp B         &kp N        &kp M        &kp COMMA &kp DOT   &kp FSLH
-           &kp N0     &sk LWIN                                                     &sl 1     &sk LCTRL
+           &kp DOT     &kp N0                                                     &sl 1     &sk LCTRL
                               &sk LALT    &kp SPACE     &sk SPACE   &sk LALT
             >;
 
