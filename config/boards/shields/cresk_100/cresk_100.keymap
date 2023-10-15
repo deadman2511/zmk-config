@@ -27,7 +27,7 @@
 &none      &kp N4     &kp N5    &kp N6    &kp MINUS         &kp H        &kp J        &kp K     &kp L     &kp SEMI
 &none      &kp N1     &kp N2    &kp N3    &kp PLUS         &kp N        &kp M        &kp COMMA &kp DOT   &kp FSLH
            &kp DOT     &kp N0                                                     &sl 1     &sk LCTRL
-                              &sk LALT    &kp SPACE     &sk SPACE   &sk LALT
+                              &kp DIVIDE    &kp ENTER     &sk SPACE   &sk LALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN
