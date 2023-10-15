@@ -8,12 +8,12 @@
 #include <dt-bindings/zmk/keys.h>
 
 &sk {
-    release-after-ms = <600>;
+    release-after-ms = <10>;
     quick-release;
 };
 
 &sl {
-    release-after-ms = <600>;
+    release-after-ms = <10>;
 };
 
 / {
@@ -23,11 +23,11 @@
         default_layer {
             bindings = <
                                        &kp C_MUTE    &none
-&kp NUM      &kp N7     &kp N8    &kp N9    &kp MULTIPLY         &kp Y        &kp U        &kp I     &kp O     &kp P
-&none      &kp N4     &kp N5    &kp N6    &kp MINUS         &kp H        &kp J        &kp K     &kp L     &kp SEMI
-&none      &kp N1     &kp N2    &kp N3    &kp PLUS         &kp N        &kp M        &kp COMMA &kp DOT   &kp FSLH
-           &kp DOT     &kp N0                                                     &none     &none
-                              &kp DIVIDE    &kp ENTER     &sk LSHIFT   &sk LCTRL
+&kp Q      &kp W     &kp E    &kp R    &kp T         &kp Y        &kp U        &kp I     &kp O     &kp P
+&kp A      &kp S     &kp D    &kp F    &kp G         &kp H        &kp J        &kp K     &kp L     &kp SEMI
+&kp Z      &kp X     &kp C    &kp V    &kp B         &kp N        &kp M        &kp COMMA &kp DOT   &kp FSLH
+           &sk LCTRL     &sk LWIN                                                     &sl 1     &sk LCTRL
+                              &sk LALT    &kp SPACE     &sk SPACE   &sk LALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN
