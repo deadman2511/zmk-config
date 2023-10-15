@@ -23,10 +23,10 @@
         default_layer {
             bindings = <
                                        &kp C_MUTE    &none
-&kp Q      &kp W     &kp E    &kp R    &kp T         &kp Y        &kp U        &kp I     &kp O     &kp P
-&kp A      &kp S     &kp D    &kp F    &kp G         &kp H        &kp J        &kp K     &kp L     &kp SEMI
-&kp Z      &kp X     &kp C    &kp V    &kp B         &kp N        &kp M        &kp COMMA &kp DOT   &kp FSLH
-           &sk LCTRL     &sk LWIN                                                     &sl 1     &sk LCTRL
+&kp num      &kp 7     &kp 8    &kp 9    &kp T         &kp Y        &kp U        &kp I     &kp O     &kp P
+&none      &kp 4     &kp 5    &kp 6    &kp G         &kp H        &kp J        &kp K     &kp L     &kp SEMI
+&none      &kp 1     &kp 2    &kp 3    &kp B         &kp N        &kp M        &kp COMMA &kp DOT   &kp FSLH
+           &kp dot     &kp 0                                                     &sl 1     &sk LCTRL
                               &sk LALT    &kp SPACE     &sk SPACE   &sk LALT
             >;
 
