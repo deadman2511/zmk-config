@@ -23,11 +23,11 @@
         default_layer {
             bindings = <
                                        &kp C_MUTE    &none
-&kp NUM      &kp 7     &kp 8    &kp 9    &kp 1         &kp Y        &kp U        &kp I     &kp O     &kp P
+&none      &kp 7     &kp 8    &kp 9    &kp 1         &kp Y        &kp U        &kp I     &kp O     &kp P
 &none      &kp 4     &kp 5    &kp 6    &kp 2         &kp H        &kp J        &kp K     &kp L     &kp SEMI
 &none      &kp 1     &kp 2    &kp 3    &kp 3         &kp N        &kp M        &kp COMMA &kp DOT   &kp FSLH
-           &sk dot     &sk 0                                                     &sl 1     &sk LCTRL
-                              &sk 4    &kp 5     &sk SPACE   &sk LALT
+           &kp dot     &kp 0                                                     &sl 1     &sk LCTRL
+                              &kp 4    &kp 5     &sk SPACE   &sk LALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN
